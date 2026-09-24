@@ -1,0 +1,21 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Allow all PHP files to be accessed directly
+  RewriteRule \.php$ - [L]
+
+  # Allow thankyou.html directly
+  RewriteRule ^thankyou\.html$ - [L]
+
+  # Allow static assets
+  RewriteRule ^assets/ - [L]
+  RewriteRule ^favicon\.ico$ - [L]
+  RewriteRule ^robots\.txt$ - [L]
+  RewriteRule ^placeholder\.svg$ - [L]
+
+  # Send everything else to React
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^ index.html [L]
+</IfModule>

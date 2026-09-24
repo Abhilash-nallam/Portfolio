@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>naportfolio.gt.tc — OTP-AUTH Easy Integration Test</title>
+<style>
+body{font-family:Arial,sans-serif;background:#f5f7fb;margin:0;padding:40px;color:#172033}
+.card{max-width:600px;margin:auto;background:#fff;padding:28px;border-radius:16px;border:1px solid #dfe4ec}
+.otp-auth-widget label{display:block;font-weight:600;margin:14px 0 6px}
+.otp-auth-widget input{width:100%;padding:11px;border:1px solid #cbd2dc;border-radius:8px;box-sizing:border-box}
+.otp-auth-widget button{margin:10px 8px 0 0;padding:10px 15px;border:0;border-radius:8px;background:#172033;color:white}
+.otp-auth-widget [data-otp-status]{margin-top:14px;min-height:20px}
+</style>
+</head>
+<body>
+<div class="card">
+<h1>naportfolio OTP Verification</h1>
+<p>This page is the real customer-site Easy Integration test for OTP-AUTH.</p>
+
+<div id="otp-auth"></div>
+
+<script src="https://slotcare.gt.tc/widget.js"></script>
+<script>
+OtpAuth.mount("#otp-auth", {
+    project: "3",
+    mode: "test",
+    purpose: "registration"
+});
+</script>
+</div>
+</body>
+</html>

@@ -1,23 +1,25 @@
 <div align="center">
 
-  <!-- Premium Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7928CA,100:4F46E5&height=220&section=header&text=ABHILASH%20NALLAM&fontSize=62&fontColor=ffffff&fontAlignY=38&desc=FULL-STACK%20ENGINEER%20%E2%80%A2%20MOBILE%20%26%20CLOUD%20ARCHITECT&descSize=18&descAlignY=62&descColor=A5B4FC" width="100%" />
+  <!-- Obsidian Deep-Navy Luxury Wave Header -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:090d16,40:1e293b,100:0284c7&height=230&section=header&text=NALLAM%20ABHILASH&fontSize=62&fontColor=ffffff&fontAlignY=36&desc=FULL-STACK%20DEVELOPER%20%E2%80%A2%20BUILDING%20REAL-WORLD%20PLATFORMS&descSize=18&descAlignY=62&descColor=38bdf8" width="100%" />
 
-  <!-- Dynamic Typing Subtitle -->
-  <p align="center">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=A855F7&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Abhilash+%F0%9F%91%8B;Full-Stack+%26+Mobile+Engineer;Building+scalable%2C+high-impact+software;Architecting+modern+digital+experiences" alt="Typing SVG" />
-  </p>
+  <!-- Animated Terminal Subtitle -->
+  <a href="https://portfolio-ten-mocha-25.vercel.app">
+    <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=24&pause=1200&color=38BDF8&center=true&vCenter=true&width=750&lines=Full-Stack+Engineer;Crafting+real-world+platforms+with+React%2C+Next.js%2C+Node.js;Shipped+products+used+by+500%2B+students;Live+at+portfolio-ten-mocha-25.vercel.app" alt="Dynamic Typing Header" />
+  </a>
 
-  <!-- Interactive Badges & Metrics -->
+  <br/><br/>
+
+  <!-- Status & Reach Badges -->
   <p align="center">
-    <a href="https://github.com/Abhilash-nallam?tab=followers">
-      <img src="https://img.shields.io/github/followers/Abhilash-nallam?label=Followers&style=for-the-badge&color=7C3AED&logo=github&logoColor=white" />
+    <a href="https://portfolio-ten-mocha-25.vercel.app">
+      <img src="https://img.shields.io/badge/Portfolio-portfolio--ten--mocha--25.vercel.app-0284c7?style=for-the-badge&logo=vercel&logoColor=white" />
     </a>
     <a href="https://github.com/Abhilash-nallam">
-      <img src="https://img.shields.io/badge/Status-Open%20to%20Work-10B981?style=for-the-badge&logo=codeforces&logoColor=white" />
+      <img src="https://img.shields.io/badge/Status-Available%20for%20Opportunities-0ea5e9?style=for-the-badge&logo=codeforces&logoColor=white" />
     </a>
-    <a href="https://komarev.com/ghpvc/?username=Abhilash-nallam&label=Profile+Views&color=6366F1&style=for-the-badge">
-      <img src="https://komarev.com/ghpvc/?username=Abhilash-nallam&label=Profile+Views&color=6366F1&style=for-the-badge" alt="Profile Views" />
+    <a href="https://github.com/Abhilash-nallam?tab=followers">
+      <img src="https://img.shields.io/github/followers/Abhilash-nallam?label=Network&style=for-the-badge&color=0369a1&logo=github&logoColor=white" />
     </a>
   </p>
 
@@ -25,11 +27,12 @@
 
 ---
 
-### 💫 Executive Summary
+### 🌐 Overview
 
-```yaml
-Name: Nallam Abhilash
-Role: Full-Stack & Mobile Developer
-Focus: Modern Web Architectures, Authentication Systems, Scalable APIs
-Passions: Microservices • Reactive UI/UX • Cloud Infrastructure
-Availability: Internships • High-impact Collaborations • Open Source
+```json
+{
+  "developer": "Nallam Abhilash",
+  "degree": "B.Tech CSE (AI & ML) — Balaji Institute of Technology & Science, Warangal",
+  "metrics": "500+ Active Users • 6,000+ Total Platform Visits • 4th Rank College Hackathon",
+  "specialization": "Full-Stack Development, Web Scraping, Real-Time File Systems, Cloud Deployment"
+}
